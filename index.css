@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, 'Arial Narrow', Helvetica, sans-serif;
+}
+
+.header {
+    margin: 1em;
+    padding: 10px;
+    text-align: justify;
+}
+
+.header:after {
+    display: inline-block;
+    height: 0;
+    line-height: 0;
+}
+
+h1 {
+    display: inline-block;
+}
+
+.header-subtext {
+    display: inline-block;
+    vertical-align: baseline;
+    margin-left: 50px;
+}
+
+#dateInput {
+    margin: 15px;
+    padding: 10px;
+    width: 25%;
+}
